@@ -12,7 +12,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>http://10.31.154.203/ipas/MeetingController.ipa</string>
+                    <string>https://raw.githubusercontent.com/zilongiop/feedplist/refs/heads/main/MeetingController.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>

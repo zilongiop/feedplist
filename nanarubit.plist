@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <!-- IPA 的 HTTPS 下载地址（必填，需与签名一致） -->
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>http://10.31.154.203/ipas/MeetingController.ipa</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <!-- 应用 Bundle ID（必须与 IPA 签名一致） -->
+                <key>bundle-identifier</key>
+                <string>com.xingin.mboards</string>
+                <!-- 应用版本号（必须与 IPA 签名一致） -->
+                <key>bundle-version</key>
+                <string>1.0</string>
+                <!-- 显示名称（安装时弹窗的名称） -->
+                <key>bundle-display-name</key>
+                <string>M-board</string>
+                <!-- 标题（二维码扫描后的提示标题） -->
+                <key>title</key>
+                <string>M-board 安装</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

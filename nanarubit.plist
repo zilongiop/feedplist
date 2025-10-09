@@ -1,36 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>items</key>
-    <array>
-        <dict>
-            <key>assets</key>
-            <array>
-                <!-- IPA 的 HTTPS 下载地址（必填，需与签名一致） -->
-                <dict>
-                    <key>kind</key>
-                    <string>software-package</string>
-                    <key>url</key>
-                    <string>https://raw.githubusercontent.com/zilongiop/feedplist/refs/heads/main/MeetingController.ipa</string>
-                </dict>
-            </array>
-            <key>metadata</key>
-            <dict>
-                <!-- 应用 Bundle ID（必须与 IPA 签名一致） -->
-                <key>bundle-identifier</key>
-                <string>com.xingin.mboards</string>
-                <!-- 应用版本号（必须与 IPA 签名一致） -->
-                <key>bundle-version</key>
-                <string>1.0</string>
-                <!-- 显示名称（安装时弹窗的名称） -->
-                <key>bundle-display-name</key>
-                <string>M-board</string>
-                <!-- 标题（二维码扫描后的提示标题） -->
-                <key>title</key>
-                <string>M-board 安装</string>
-            </dict>
-        </dict>
-    </array>
-</dict>
+<plist version="1.0"> 
+	<dict> 
+		<key>items</key> 
+		<array> 
+			<dict> 
+				<key>assets</key> 
+				<array> 
+					<dict> 
+						<key>kind</key> 
+						<string>software-package</string> 
+						<key>url</key> 
+						<string>https://raw.githubusercontent.com/zilongiop/feedplist/refs/heads/main/MeetingController.ipa</string> 
+					</dict> 
+					<dict> 
+						<key>kind</key> 
+						<string>full-size-image</string> 
+						<key>needs-shine</key> 
+						<false /> 
+						<key>url</key> 
+						<string>https://cdn-app-icon2.pgyer.com/7/3/4/8/0/7348056751c279b18cebdb3b47642666?x-oss-process=image/resize,m_lfit,h_120,w_120/format,jpg</string> 
+					</dict> 
+					<dict> 
+						<key>kind</key> 
+						<string>display-image</string> 
+						<key>needs-shine</key> 
+						<false /> 
+						<key>url</key> 
+						<string>https://cdn-app-icon2.pgyer.com/7/3/4/8/0/7348056751c279b18cebdb3b47642666?x-oss-process=image/resize,m_lfit,h_120,w_120/format,jpg</string> 
+					</dict> 
+				</array> 
+				<key>metadata</key> 
+				<dict> 
+					<key>bundle-identifier</key> 
+					<string>com.xingin.mboards</string> 
+					<key>bundle-version</key> 
+					<string>1.0</string> 
+					<key>kind</key> 
+					<string>software</string> 
+					<key>subtitle</key> 
+					<string>会议室</string> 
+					<key>title</key> 
+					<string>会议室</string> 
+				</dict> 
+			</dict> 
+		</array> 
+	</dict> 
 </plist>
